@@ -1,4 +1,4 @@
-# Video Frame Extractor
+# Video Shot Analyzer
 
 智能视频分析工具：自动切分场景、抽取关键帧，并生成导演向的运镜/构图/动作分析报告。  
 支持 **成片分析模式** 与 **线稿分析模式**，可用于本地 WebUI 使用，也可集成到自有后端/API 服务。
@@ -14,8 +14,13 @@
 
 ## 快速体验（Windows 安装包）
 
+下载地址：
+
+- Releases 页面：https://github.com/muzlin00-sketch/video-shot-analyzer/releases
+- 直接下载：https://github.com/muzlin00-sketch/video-shot-analyzer/releases/download/v1.0.0/video-analyzer-setup-win11.exe
+
 1. 打开仓库 **Releases** 页面  
-2. 下载最新安装包：`智能视频分析工具-安装包.exe`
+2. 下载最新安装包：`video-analyzer-setup-win11.exe`
 3. 安装后启动，填写你自己的 API Key / Base URL / Model
 
 ## 本地运行（开发模式）
