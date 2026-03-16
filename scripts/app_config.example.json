@@ -1,0 +1,13 @@
+{
+  "api_key": "your_api_key_here",
+  "base_url": "https://your-openai-compatible-endpoint/v1",
+  "model": "your_model_name",
+  "analysis_mode": "live_action",
+  "scene_threshold_live": 30.0,
+  "scene_threshold_storyboard": 26.0,
+  "min_scene_duration_storyboard": 0.0,
+  "keep_short_scene_storyboard": true,
+  "smart_profile": "auto",
+  "motion_preference": "auto",
+  "smart_window": 1.0
+}
