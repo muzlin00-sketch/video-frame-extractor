@@ -96,6 +96,12 @@ run_video_analysis(video_path, output_base_dir, runtime, verify_connectivity=Tru
 
 ## 5. AI API 配置方式
 
+前置要求（重要）：
+
+- 必须接入 **多模态 AI 大模型**（可处理图片输入）。
+- 推荐使用 **Gemini 3 Pro 系列**（如 `gemini-3-pro`）作为首选模型。
+- 若使用其他模型，请确保具备稳定多图理解能力，并兼容 OpenAI 风格接口。
+
 优先级：命令行参数 > 环境变量 > 配置文件
 
 ### 5.1 环境变量
@@ -170,7 +176,7 @@ from analyze_video import run_video_analysis
 runtime = {
     "api_key": "...",
     "base_url": "https://your-openai-compatible-endpoint/v1",
-    "model_name": "your_model_name",
+    "model_name": "gemini-3-pro",
     "analysis_mode": "live_action",
     "scene_threshold_live": 30.0,
     "scene_threshold_storyboard": 26.0,
